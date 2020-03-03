@@ -3,7 +3,6 @@
 CUDA=/usr/local/cuda-6.5 &&
 HSAIL_TOOLS=$HOME/tmp/source/hsa/HSAIL-Tools/master.build &&
 HSA_RUNTIME=$HOME/tmp/source/hsa/HSA-Runtime-Reference-Source/master &&
-SCB=/scratch/tschwing/sourceryg++-2014.05 &&
 case $PATH in
   $CUDA/bin:$HSAIL_TOOLS/HSAILAsm:$SCB/bin/cache:$SCB/bin:*) :;;
   *) PATH=$CUDA/bin:$HSAIL_TOOLS/HSAILAsm:$SCB/bin/cache:$SCB/bin:$PATH;;
